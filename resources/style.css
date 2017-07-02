@@ -92,3 +92,20 @@ body {
   line-height: 1.2;
   margin: 1.5rem 5rem;
 }
+
+/* ========== Main Footer ========== */
+
+#mainfooter .container {
+  background-color: azure;
+  display: flex;
+}
+
+#mainfooter .row {
+  margin: 4rem;
+}
+
+#mainfooter .row img {
+  height: 1.5rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
