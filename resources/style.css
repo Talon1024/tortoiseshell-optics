@@ -26,11 +26,12 @@ body {
   background-image: url("./images/glasses-bg.png");
   background-size: cover;
   height: 30rem;
+  display: flow-root;
 }
 
-#mainheader .container {
+#mainheader .row {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
 }
 
 /* ========== Main Header - navbar ========== */
