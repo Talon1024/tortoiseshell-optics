@@ -1,0 +1,21 @@
+/* ========== Global stuff ========== */
+
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.container {
+  width: 960px;
+}
+
+/* ========== Main Header ========== */
+
+#mainheader {
+  background-image: url("./images/glasses-bg.png");
+  background-size: cover;
+}
+
+.navbar {
+  
+}
