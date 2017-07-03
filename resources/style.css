@@ -93,6 +93,33 @@ body {
   margin: 1.5rem 5rem;
 }
 
+/* ========== Main Content - features ========== */
+
+#features.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 3rem auto;
+}
+
+#features .feature {
+  margin: 0 3rem;
+  line-height: 1.4;
+  text-align: center;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#features .feature.tallimg img {
+  width: 3.5rem;
+}
+
+#features .feature img {
+  width: 5rem;
+}
+
 /* ========== Main Footer ========== */
 
 #mainfooter .container {
