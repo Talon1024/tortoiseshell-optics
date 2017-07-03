@@ -93,9 +93,9 @@ body {
   margin: 1.5rem 5rem;
 }
 
-/* ========== Main Content - features ========== */
+/* ========== Main Content - Features ========== */
 
-#features.row {
+#features {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -118,6 +118,28 @@ body {
 
 #features .feature img {
   width: 5rem;
+}
+
+/* ========== Main Content - Written features ========== */
+
+#writtenfeatures {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+#writtenfeatures .written {
+  width: 35%;
+  margin: 0 2.5%;
+}
+
+#writtenfeatures .written h1 {
+  width: 10rem;
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
 
 /* ========== Main Footer ========== */
