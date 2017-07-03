@@ -76,7 +76,7 @@ body {
   color: white;
   text-decoration: none;
 }
-
+83
 /* ========== Main Header - highlight ========== */
 
 .highlight {
@@ -114,6 +114,13 @@ body {
 
 #features .feature.tallimg img {
   width: 3.5rem;
+}
+
+#features .feature > .featimg {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #features .feature img {
