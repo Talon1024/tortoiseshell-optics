@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1024px) {
   .container {
     width: 100%;
   }
@@ -34,6 +34,12 @@ body {
   justify-content: flex-end;
 }
 
+@media only screen and (max-width: 1024px) {
+  #mainheader {
+    height: 22rem;
+  }
+}
+
 /* ========== Main Header - navbar ========== */
 
 .navbar {
@@ -43,6 +49,13 @@ body {
   width: 96%;
   margin: 1rem auto;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    width: 100%;
+    margin: 0 auto 1rem;
+  }
 }
 
 /* ========== Main Header - navbar logo ========== */
@@ -91,6 +104,17 @@ body {
   font-weight: bold;
   line-height: 1.2;
   margin: 1.5rem 5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .highlight {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .highlight h1 {
+    font-size: 1.33rem;
+    margin: 0.75rem 4rem;
+  }
 }
 
 /* ========== Main Content - Features ========== */
