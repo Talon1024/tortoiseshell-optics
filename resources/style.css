@@ -40,6 +40,13 @@ body {
   }
 }
 
+@media only screen and (max-width: 620px) {
+  #mainheader {
+    height: 17rem;
+    background-position: 20%;
+  }
+}
+
 /* ========== Main Header - navbar ========== */
 
 .navbar {
@@ -55,6 +62,12 @@ body {
   .navbar {
     width: 100%;
     margin: 0 auto 1rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .navbar {
+    margin-bottom: 0;
   }
 }
 
@@ -75,19 +88,36 @@ body {
   margin-right: 1rem;
 }
 
+@media only screen and (max-width: 620px) {
+  #logo-area .title {
+    display: none;
+  }
+}
+
 /* ========== Main Header - navbar links ========== */
 
 #links-area ul {
   display: flex;
 }
 
-#links-area ul > li {
-  margin: 1rem;
-}
-
 #links-area a {
   color: white;
   text-decoration: none;
+  margin: 1rem;
+  display: block;
+}
+
+#links-area .mobile-only {
+  display: none;
+}
+
+@media only screen and (max-width: 620px) {
+  #links-area .mobile-only {
+    display: block;
+  }
+  #links-area ul {
+    display: none;
+  }
 }
 
 /* ========== Main Header - highlight ========== */
@@ -114,6 +144,20 @@ body {
   .highlight h1 {
     font-size: 1.33rem;
     margin: 0.75rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .highlight {
+    width: 100%;
+    margin-top: 9rem;
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .highlight h1 {
+    margin: 1rem;
+    font-size: 1rem;
   }
 }
 
@@ -151,6 +195,17 @@ body {
   width: 5rem;
 }
 
+@media only screen and (max-width: 620px) {
+  #features {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem auto;
+  }
+  #features .feature {
+    margin: 0.77rem 0;
+  }
+}
+
 /* ========== Main Content - Written features ========== */
 
 #writtenfeatures {
@@ -173,6 +228,21 @@ body {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 620px) {
+  #writtenfeatures {
+    display: block;
+  }
+  #writtenfeatures .written {
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+  #writtenfeatures .written h1 {
+    width: 100%;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+}
+
 /* ========== Main Footer ========== */
 
 #mainfooter .container {
@@ -188,4 +258,16 @@ body {
   height: 1.5rem;
   vertical-align: middle;
   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 620px) {
+  #mainfooter .container {
+    justify-content: center;
+  }
+  #mainfooter .copyright {
+    display: none;
+  }
+  #mainfooter .row img {
+    margin-right: 0;
+  }
 }
